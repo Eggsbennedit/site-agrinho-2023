@@ -1,0 +1,215 @@
+@media screen and (min-width: 920px) { /* PC, Notebook ou Tablet deitado */
+    .conteudo_principal {
+        margin: 30px 0;
+    }
+    .container {
+        height: 60vh;
+        align-items: center;
+    }
+    .conteudo_dividido {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    .conteudo_imagem {
+        width: 60%;
+        border: 1px solid black;
+        border-radius: 10%;
+        transition: transform 1s;
+    }
+    .titulo {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .texto__container_dividido {
+        margin: 0 auto;
+        width: 72%;
+    }
+    .texto__fora_container {
+        margin: 0 auto;
+        padding: 0.5em 0;
+        width: 80%;
+    }
+    .citacao {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 1.1em;
+        border: 2px solid black;
+        background-color: white;
+    }
+
+    .referencia {
+        font-size: 0.75em;
+        color: var(--texto-referencia);
+        font-style: italic;
+    }
+
+    .conteudo_imagem:hover{
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (max-width: 460px) and (orientation: portrait) { /* celular em pé */
+    .conteudo_principal {
+        margin: 30px 0;
+    }
+    .container {
+        height: auto;
+        align-items: center;
+    }
+    .conteudo_dividido {
+        height: auto;
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+    .conteudo_imagem {
+        width: 65%;
+        border: 1px solid black;
+        border-radius: 10%;
+        text-align: center;
+        margin: auto;
+        transition: transform 1s;
+    }
+    .img_com_ref {
+        text-align: center;
+        margin: auto;
+    }
+    .titulo {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .texto__container_dividido {
+        margin: 0 auto 2vh;
+        width: 80%;
+    }
+    .texto__fora_container {
+        margin: 2vh auto 0;
+        padding: 0.5em 0;
+        width: 80%;
+    }
+    .citacao {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 1.1em;
+        border: 2px solid black;
+        background-color: white;
+    }
+
+    .referencia {
+        font-size: 0.75em;
+        color: var(--texto-referencia);
+        font-style: italic;
+        margin-bottom: 2vh;
+    }
+
+    .conteudo_imagem:hover{
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (max-width: 915px) and (orientation: landscape) { /* celular deitado */
+    .conteudo_principal {
+        margin: 50px 0;
+    }
+    .container {
+        height: auto;
+        align-items: center;
+    }
+    .conteudo_dividido {
+        height: 150vh;
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+    .conteudo_imagem {
+        width: 30%;
+        border: 1px solid black;
+        border-radius: 10%;
+        text-align: center;
+        margin: auto;
+        transition: transform 1s;
+    }
+    .img_com_ref {
+        text-align: center;
+        margin: 0 auto 10vh;
+    }
+    .titulo {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .texto__container_dividido {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .texto__fora_container {
+        margin: 0 auto;
+        padding: 0.5em 0;
+        width: 80%;
+    }
+    .citacao {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 1.1em;
+        border: 2px solid black;
+        background-color: white;
+    }
+
+    .referencia {
+        font-size: 0.75em;
+        color: var(--texto-referencia);
+        font-style: italic;
+    }
+
+    .conteudo_imagem:hover{
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (min-width:461px) and (max-width: 915px) and (orientation: portrait) { /* tablet em pé */
+    .conteudo_principal {
+        margin: 50px 0;
+    }
+    .container {
+        height: 60vh;
+        align-items: center;
+    }
+    .conteudo_dividido {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    .conteudo_imagem {
+        width: 60%;
+        border: 1px solid black;
+        border-radius: 10%;
+        transition: transform 1s;
+    }
+    .titulo {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .texto__container_dividido {
+        margin: 0 auto;
+        width: 72%;
+    }
+    .texto__fora_container {
+        margin: 0 auto;
+        padding: 0.5em 0;
+        width: 80%;
+    }
+    .citacao {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 1.1em;
+        border: 2px solid black;
+        background-color: white;
+    }
+
+    .referencia {
+        font-size: 0.75em;
+        color: var(--texto-referencia);
+        font-style: italic;
+    }
+
+    .conteudo_imagem:hover{
+        transform: scale(1.05);
+    }
+}

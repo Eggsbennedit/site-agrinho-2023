@@ -1,0 +1,67 @@
+@media screen and (min-width: 920px) { /* PC, Notebook ou Tablet deitado */
+    .cabecalho {
+        display: grid;
+        background-image: linear-gradient(to right, var(--fundo-secundario), var(--fundo-padrao), var(--fundo-secundario));
+        border-bottom: 2px black solid;
+        height: 20vh;
+        align-items: center;
+        text-align: center;
+    }
+    .header_titulo {
+        color: var(--texto-principal);
+        font-weight: 400;
+        font-size: 1.75em;
+        
+    }
+}
+
+@media screen and (max-width: 460px) and (orientation: portrait) { /* celular em pé */
+    .cabecalho {
+        display: grid;
+        background-image: linear-gradient(to right, var(--fundo-secundario), var(--fundo-padrao), var(--fundo-secundario));
+        border-bottom: 2px black solid;
+        height: 20vh;
+        align-items: center;
+        text-align: center;
+    }
+    .header_titulo {
+        color: var(--texto-principal);
+        font-weight: 400;
+        font-size: 1.5em;
+        
+    }
+}
+
+@media screen and (max-width: 915px) and (orientation: landscape) { /* celular deitado */
+    .cabecalho {
+        display: grid;
+        background-image: linear-gradient(to right, var(--fundo-secundario), var(--fundo-padrao), var(--fundo-secundario));
+        border-bottom: 2px black solid;
+        height: 20vh;
+        align-items: center;
+        text-align: center;
+    }
+    .header_titulo {
+        color: var(--texto-principal);
+        font-weight: 400;
+        font-size: 1.75em;
+        
+    }
+}
+
+@media screen and (min-width: 461px) and (max-width: 900px) and (orientation: portrait) { /* tablet em pé */
+    .cabecalho {
+        display: grid;
+        background-image: linear-gradient(to right, var(--fundo-secundario), var(--fundo-padrao), var(--fundo-secundario));
+        border-bottom: 2px black solid;
+        height: 20vh;
+        align-items: center;
+        text-align: center;
+    }
+    .header_titulo {
+        color: var(--texto-principal);
+        font-weight: 400;
+        font-size: 1.75em;
+        
+    }
+}
