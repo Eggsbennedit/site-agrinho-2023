@@ -19,6 +19,6 @@ body {
     background-color: var(--fundo-padrao);
     color: var(--texto-padrao);
     font-family: 'PT Sans';
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 400;
 }
