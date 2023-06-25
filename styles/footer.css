@@ -3,7 +3,7 @@
         background-color: var(--fundo-secundario);
         text-align: center;
     }
-    .rodape_link {
+    .rodape__lista_item {
         text-decoration: none;
         color: var(--texto-secundario);
     }
@@ -14,7 +14,7 @@
         background-color: var(--fundo-secundario);
         text-align: center;
     }
-    .rodape_link {
+    .rodape__lista_item {
         text-decoration: none;
         color: var(--texto-secundario);
     }
@@ -28,7 +28,7 @@
     .rodape ul {
         list-style-type: none;
     }
-    .rodape_link {
+    .rodape__lista_item {
         text-decoration: none;
         color: var(--texto-secundario);
     }
@@ -39,7 +39,7 @@
         background-color: var(--fundo-secundario);
         text-align: center;
     }
-    .rodape_link {
+    .rodape__lista_item {
         text-decoration: none;
         color: var(--texto-secundario);
     }
