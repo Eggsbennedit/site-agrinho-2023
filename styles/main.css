@@ -6,6 +6,13 @@
     height: auto;
     align-items: center;
 }
+.referencia {
+    color: var(--texto-referencia);
+    text-decoration: none;
+}
+.referencia:hover {
+    text-decoration: underline;
+}
 @media screen and (min-width: 920px) { /* PC, Notebook ou Tablet deitado */
     .conteudo_dividido {
         display: grid;
@@ -38,13 +45,10 @@
         border: 2px solid black;
         background-color: white;
     }
-
     .referencia {
         font-size: 0.75em;
-        color: var(--texto-referencia);
         font-style: italic;
     }
-
     .conteudo_imagem:hover{
         transform: scale(1.05);
     }
@@ -137,7 +141,6 @@
 
     .referencia {
         font-size: 0.75em;
-        color: var(--texto-referencia);
         font-style: italic;
     }
 
@@ -179,7 +182,6 @@
 
     .referencia {
         font-size: 0.75em;
-        color: var(--texto-referencia);
         font-style: italic;
     }
 

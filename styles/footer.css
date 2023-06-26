@@ -12,10 +12,10 @@
     justify-content: space-evenly;
     padding: 0 10vw;
 }
-.rodape_item, a {
+.rodape_link {
     text-decoration: none;
     color: var(--texto-secundario);
 }
-.rodape_item:hover, a:hover {
+.rodape_link:hover {
     color: #4819c9;
 }
