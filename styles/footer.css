@@ -1,46 +1,21 @@
-@media screen and (min-width: 920px) {  /* PC, Notebook ou Tablet deitado */
-    .rodape {
-        background-color: var(--fundo-secundario);
-        text-align: center;
-    }
-    .rodape__lista_item {
-        text-decoration: none;
-        color: var(--texto-secundario);
-    }
+/* estilos que não mudam, independente do dispositivo e de sua orientação */
+.rodape {
+    background-color: var(--fundo-secundario);
+    
+    align-items: center;
+    padding: 1vh 0;
+    border-top: 2px black solid;
 }
-
-@media screen and (max-width: 460px) and (orientation: portrait) { /* celular em pé */
-    .rodape {
-        background-color: var(--fundo-secundario);
-        text-align: center;
-    }
-    .rodape__lista_item {
-        text-decoration: none;
-        color: var(--texto-secundario);
-    }
+.rodape_lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10vw;
 }
-
-@media screen and (max-width: 915px) and (orientation: landscape) { /* celular deitado */
-    .rodape {
-        background-color: var(--fundo-secundario);
-        text-align: center;
-    }
-    .rodape ul {
-        list-style-type: none;
-    }
-    .rodape__lista_item {
-        text-decoration: none;
-        color: var(--texto-secundario);
-    }
+.rodape_item, a {
+    text-decoration: none;
+    color: var(--texto-secundario);
 }
-
-@media screen and (min-width: 461px)  and (max-width: 915px) and (orientation: portrait) { /* tablet em pé */
-    .rodape {
-        background-color: var(--fundo-secundario);
-        text-align: center;
-    }
-    .rodape__lista_item {
-        text-decoration: none;
-        color: var(--texto-secundario);
-    }
+.rodape_item:hover, a:hover {
+    color: #4819c9;
 }

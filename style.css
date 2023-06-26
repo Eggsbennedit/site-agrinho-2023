@@ -6,15 +6,13 @@
     --texto-secundario: #ffffff;
     --texto-padrao: #000000;
     --fundo-secundario: #069b06;
-    --fundo-padrao: #e0e0e0;
-    --texto-referencia: #222222;
+    --fundo-padrao: #ebebeb;
+    --texto-referencia: #333333;
 }
-
 * {
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: var(--fundo-padrao);
     color: var(--texto-padrao);
