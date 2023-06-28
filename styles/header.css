@@ -29,7 +29,7 @@
     .cabecalho {
         display: grid;
         grid-template-rows: 30% 70%;
-        background-image: url("../img/gandhi.png");
+        background-image: url("../img/gandhi.png"); /* Fonte: https://www.iconspng.com/image/150688/gandhi */
         background-repeat: no-repeat;
         background-position: bottom;
         background-color: black;

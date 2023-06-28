@@ -1,21 +1,15 @@
 /* estilos que não mudam, independente do dispositivo e de sua orientação */
 .rodape {
     background-color: var(--fundo-secundario);
-    
+    height: 20vh;
+    display: flex;
     align-items: center;
-    padding: 1vh 0;
+    justify-content: center;
     border-top: 3px black solid;
 }
-.rodape_lista {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 10vw;
-}
-.rodape_link {
-    text-decoration: none;
+.rodape_item {
     color: var(--texto-secundario);
 }
-.rodape_link:hover {
+.rodape_item:hover {
     color: #4819c9;
 }
